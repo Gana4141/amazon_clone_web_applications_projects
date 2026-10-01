@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/music.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        font-family: Arial;
+    }
+    .brand-title{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    header span{
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       article{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        text-align: center; 
+       }
+       .bi-lightning-fill{
+        color: gold;
+       }
+       main{
+        height: 500px;
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        margin-top: 1   0px;
+       }
+       .women-fashion{
+        background-image: url("./public/images/women-shop.jpg");
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+       }
+       .men-fashion{
+        background-image: url("./public/images/men-fashion.jpg");
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+       }
+       .kids-fashion{
+        background-image: url("./public/images/kids-fashion.webp");
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+       }
+   .main-title{
+    font-size: 45px;
+        font-family: Arial;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px black;
+   }
+   .shop-button{
+    background-color: white;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+
+   }
+    .services{
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr ;
+   }
+   section{
+    height: 800px;
+  
+   }
+   footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+   }
+   .subscribe-container{
+    padding-top: 40px;
+    text-align: center;
+    font-family: Arial;
+   }
+   .sub-title{
+    font-size: 30px;
+    padding-bottom: 30px;
+   }
+   .email{
+    background-color: gray;
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+   }
+   .btn-subcribe{
+    background-color: darkslategray;
+    color: white;
+    padding: 20px;
+    width: 150px;
+    display: inline-block;
+   }
+   .services-container{
+
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr ;
+
+   }
+    .service-title{
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-family: Arial;
+
+    }
+    .service-topics span{
+     display: block;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-family: Arial;
+    }
+    .footer-brand-title{
+        font-size: 25px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-family: Arial;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div>
+           <span class="brand-title">Shopper</span>
+        </div>
+        <div>
+          <nav>
+              <span>Home</span>
+              <span>Pages</span>
+              <span>Blog</span>
+              <span>Docs</span>
+              <span>Shop</span>
+              <span>Catalog</span>
+          </nav>
+        </div>
+        <div>
+           <span class="bi bi-search"></span>
+           <span class="bi bi-person"></span>
+           <span class="bi bi-heart"></span>
+           <span class="bi bi-cart3"></span>
+        </div>
+     </header>
+     <section>
+      <article>
+          <span class="bi bi-lightning-fill"></span>
+          <span> HAPPY HOLIDAY DEALS ON EVERYTHING </span>
+          <span class="bi bi-lightning-fill"></span>
+       </article>
+       <main>
+          <div class="women-fashion">
+              <div class="main-title">Women</div>
+              <div class="shop-button">Shop Women <span class="bi bi-arrow-right"></span> </div>
+          </div>
+          <div class="men-fashion">
+              <div class="main-title">Men</div>
+              <div class="shop-button">Shop Men <span class="bi bi-arrow-right"></span> </div>
+          </div>
+          <div class="kids-fashion">
+              <div class="main-title">Kids</div>
+              <div class="shop-button">Shop Kids <span class="bi bi-arrow-right"></span> </div>
+          </div>
+       </main>
+       <div class="services">
+          <div>
+              <div> <span class="bi bi-truck"></span> Free Shipping </div>
+              <div> From all orders above 100 </div>
+          </div>
+          <div>
+              <div> <span class="bi bi-arrow-left-right"></span> Free Returns </div>
+              <div> Return money within 30 days </div>
+          </div>
+          <div>
+              <div> <span class="bi bi-lock"></span> Secure Shopping </div>
+              <div>You're in safe hands</div>
+          </div>
+          <div>
+              <div> <span class="bi bi-tag"></span> Over 10,000 styles </div>
+              <div>We have everything you need</div>
+          </div>
+       </div>
+     </section>
+     <footer>
+        <div class="subscribe-container">
+              <div class="sub-title">Want style Ideas and Treats?</div>
+              <div>
+                  <span class="email">Enter Email*</span>
+                  <span class="btn-subscribe">Subscribe</span>
+              </div>
+        </div>
+        <div class="services-container">
+            <div>
+                <div class="footer-brand-title">Shopper</div>
+                <div>
+                   <aside>
+                       <span class="bi bi-facebook"></span>
+                       <span class="bi bi-youtube"></span>
+                       <span class="bi bi-twitter"></span>
+                       <span class="bi bi-instagram"></span>
+                       <span class="bi bi-linkedin"></span>
+                   </aside>
+                </div>
+            </div>
+            <div>
+                <div class="service-title">Support</div>
+                <div class="service-topics">
+                  <span>Contact Us</span>
+                  <span>FAQs</span>
+                  <span>Size Guide</span>
+                  <span>Shipping &amp; Returns</span>
+                </div>
+            </div>
+            <div>
+              <div class="service-title">SHOP</div>
+              <div class="service-topics">
+                  <span>Men's Shopping</span>
+                  <span>Women's Shopping</span>
+                  <span>Kids' Shopping</span>
+                  <span>Discounts</span>
+              </div>
+            </div>
+            <div>
+              <div class="service-title">COMPANY</div>
+              <div class="service-topics">
+                 <span> Our Story</span>
+                  <span>Careers</span>
+                  <span>Terms &amp; Conditions</span>
+                  <span>Privacy &amp; Cookie policy</span>
+              </div>
+            </div>
+            <div>
+              <div class="service-title">CONTACT</div>
+              <address class="service-topics">
+                  <span>1-202-555-0105</span>
+                  <span>1-202-555-0106</span>
+                  <span>help@shopper.com</span>
+              </address>
+            </div>
+        </div>
+     </footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
